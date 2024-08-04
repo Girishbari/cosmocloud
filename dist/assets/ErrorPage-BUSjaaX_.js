@@ -1,0 +1,1 @@
+import{j as e,w as r,H as o}from"./index-lUerTuv-.js";import{A as s}from"./chunk-FAWTVNS3-BZOld-zM.js";function n(){return e.jsx(r,{flex:1,placeItems:"center",children:e.jsx(s,{p:"4",color:"white",axis:"both",children:e.jsx(o,{as:"h4",size:"xl",noOfLines:2,color:"teal.500",children:"Nothing here 👀 404"})})})}export{n as default};

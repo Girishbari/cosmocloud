@@ -1,5 +1,6 @@
 import { IconButton, useColorMode, useColorModeValue } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { FaMoon } from "react-icons/fa";
+import { MdOutlineWbSunny } from "react-icons/md";
 
 export default function ThemeToggle() {
   const { toggleColorMode } = useColorMode();
@@ -13,7 +14,7 @@ export default function ThemeToggle() {
       variant={"ghost"}
       aria-label={"Toggle Color Mode"}
       onClick={toggleColorMode}
-      icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
+      icon={useColorModeValue(<FaMoon />, <MdOutlineWbSunny />)}
     />
   );
 }
